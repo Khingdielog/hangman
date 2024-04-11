@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.hangman-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#hangman-word {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#keyboard {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.key {
+  background-color: #fcb69f;
+  color: white;
+  border: 2px solid #ff7e67;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#game-result {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#restart-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#restart-btn:hover {
+  background-color: #45a049;
+}
+
